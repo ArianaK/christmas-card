@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>My Christmas Card</title>
+
+<style>
+    h1{
+        color: red;
+       text-align: center;
+       position: absolute;
+       top: 40vh;
+       left: 10vw;
+       right: 10vw;
+       background-color: green;
+    }
+    body {
+    	background-image: url(background.png);
+    	background-size: cover;
+    	background-position: center;
+    	background-attachment: fixed;
+    }
+    img {
+    	 margin: 10vh auto;
+    	 display: block;
+    	 max-height: 80vh;
+
+    	}
+        </style>
+
+        <script type="text/javascript">
+            var yourName=prompt("Hi! What's your name")
+            document.write(`
+            	<img src="card.jpeg" />
+            	<h1>${yourName}, I'd like to wish you a Merry Christmas and a Happy New Year!<br/>
+            	Greetings from Ariana!</h1>
+  `)
+</script>
+</head>
+
+<body>
+</body>
+</html>
